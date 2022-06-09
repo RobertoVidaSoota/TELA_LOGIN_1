@@ -11,8 +11,41 @@
     --amarelo2: #F0D316;
     --amarelo3: #DCC112;
     --cinza1: #FFFEF2;
-    --cinza2: #F3F3ED ;
-    --cinza3: #C8C7C0 ;
-    --cinza4: #555552 ;
-    --cinza5: #3D3C3A ;
+    --cinza2: #F3F3ED;
+    --cinza3: #C8C7C0;
+    --cinza4: #555552;
+    --cinza5: #3D3C3A;
+    --cinza6: #1D1D1D;
+}
+.row
+{
+    display: flex;
+    height: 100vh;
+    background-color: var(--cinza6);
+}
+.col
+{
+    width: 45%;
+}
+
+/* COLUNA DA DIREITA */
+#title_1
+{
+    color: var(--amarelo2);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+#par_1
+{
+    color: var(--cinza3);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+#link_1
+{
+    color: var(--cinza1);
+    text-decoration: none;
+    font-weight: 700;
 }
