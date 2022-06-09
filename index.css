@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+:root
+{
+    --amarelo1: #FFE017;
+    --amarelo2: #F0D316;
+    --amarelo3: #DCC112;
+    --cinza1: #FFFEF2;
+    --cinza2: #F3F3ED ;
+    --cinza3: #C8C7C0 ;
+    --cinza4: #555552 ;
+    --cinza5: #3D3C3A ;
+}
