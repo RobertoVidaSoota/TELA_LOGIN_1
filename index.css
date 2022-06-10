@@ -133,6 +133,7 @@ input
     color: var(--cinza1);
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
     display: block;
     width: 70%;
     margin: 0 auto;
@@ -147,6 +148,7 @@ input
     color: var(--cinza3);
     font-weight: 500;
     font-size: 14px;
+    text-align: center;
     margin: 0 auto;
 }
 #link_register
