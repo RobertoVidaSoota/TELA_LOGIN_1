@@ -28,7 +28,7 @@ main
 }
 .col
 {
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     width: 40%;
 }
 
@@ -37,7 +37,7 @@ main
 {
     color: var(--amarelo2);
     width: 60%;
-    margin: 80px 0 25px 0;
+    margin: 50px 0 25px 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -62,7 +62,7 @@ main
 {
     width: 90%;
     height: 75vh;
-    margin: 80px 0 0 0;
+    margin: 50px 0 0 0;
     padding: 10px;
     background-color: rgba(var(--cinza1), 0.02);
     border: 2px solid var(--cinza4);
@@ -74,11 +74,12 @@ main
     font-weight: 600;
     font-size: 32px;
     text-align: center;
+    margin: 12px 0 60px 0;
 }
 .input_box
 {
     width: 85%;
-    margin: 50px auto;
+    margin: 40px auto 0 auto;
 }
 label
 {
@@ -106,7 +107,7 @@ input
 #confirm_forget_box
 {
     width: 85%;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     display: flex;
 }
 #button_box
@@ -122,6 +123,10 @@ input
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+}
+#button_login:hover
+{
+    background-color: var(--amarelo3);
 }
 #box_forget
 {
@@ -141,7 +146,7 @@ input
 #register_box
 {
     width: 85%;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 #register_to
 {
@@ -162,3 +167,32 @@ input
 
 
 /* -------- TELAS PEQUENAS -------- */
+
+@media only screen and (max-width: 576px)
+{
+    .row
+    {
+        display: inline-block;
+        height: 100%;
+        width: auto;
+    }
+    .col
+    {
+        margin: 0 auto 0 auto;
+        width: 100%;
+    }
+    .col_left
+    {
+        display: none;
+    }
+
+    #login_box
+    {
+        margin: 50px auto 0 auto;
+    }
+    .input_box
+    {
+        margin: 30px auto 0 auto;
+    }
+
+}
