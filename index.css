@@ -39,7 +39,7 @@ main
     width: 60%;
     margin: 50px 0 25px 0;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
 }
 #par_1
@@ -47,7 +47,7 @@ main
     color: var(--cinza3);
     width: 75%;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 24px;
 }
 #link_1
@@ -94,6 +94,8 @@ input
     width: 100%;
     height: 40px;
     background-color: var(--cinza5);
+    color: var(--cinza2);
+    font-size: 12px;
     border-radius: 4px;
     padding: 0 0 0 15px;
     border: 0;
@@ -172,8 +174,6 @@ input
 {
     .row
     {
-        display: inline-block;
-        height: 100%;
         width: auto;
     }
     .col
@@ -194,5 +194,180 @@ input
     {
         margin: 30px auto 0 auto;
     }
+    label
+    { 
+        margin: 0 0 5px 0;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    input
+    {
+        height: 35px;
+        font-size: 10px;
+        border-radius: 2px;
+        padding: 0 0 0 12px;
+    }
+    #button_login
+    {
+        padding: 9px 28.4px;
+        font-size: 10px;
+    }
+    #forget_pass
+    {
+        font-weight: 800;
+        font-size: 10px;
+    }
+    #link_register
+    {
+        font-weight: 800;
+        font-size: 12px;
+        text-decoration: none;
+    }
 
+
+}
+
+
+
+
+/*  -------- TELAS MÉDIAS --------  */
+
+@media only screen and (max-width: 768px) and (min-width: 577px)
+{
+    .row
+    {
+        width: auto;
+    }
+    .col
+    {
+        margin: 0 auto 0 auto;
+        width: 80%;
+    }
+    .col_left
+    {
+        display: none;
+    }
+
+    #login_box
+    {
+        margin: 50px auto 0 auto;
+    }
+    .input_box
+    {
+        margin: 30px auto 0 auto;
+    }
+    label
+    { 
+        margin: 0 0 5px 0;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    input
+    {
+        height: 35px;
+        font-size: 10px;
+        border-radius: 2px;
+        padding: 0 0 0 12px;
+    }
+    #button_login
+    {
+        padding: 9px 32.8px;
+        font-size: 12px;
+    }
+    #forget_pass
+    {
+        font-weight: 800;
+        font-size: 12px;
+    }
+    #link_register
+    {
+        font-weight: 800;
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
+
+
+
+
+/*  -------- TELAS LARGAS --------  */
+
+@media only screen and (max-width: 992px) and (min-width: 769px)
+{
+    .row
+    {
+        width: auto;
+        /* display: block;
+        height: auto; */
+    }
+    .col
+    {
+        margin: 0 auto 0 auto;
+        width: 100%;
+    }
+
+
+    /* COLUNA DA ESQUERDA */
+    #title_1
+    {
+        width: 70%;
+        margin: 50px auto 15px 30px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #par_1
+    {
+        width: 75%;
+        margin: 0 auto 30px 30px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    #almoco_svg
+    {
+        display: block;
+        margin: 0 auto 0 5px;
+        height: 42vh;
+    }
+
+
+    /* COLUNA DA DIREITA */
+    #login_box
+    {
+        margin: 50px auto 0 auto;
+    }
+    .input_box
+    {
+        margin: 30px auto 0 auto;
+    }
+    label
+    { 
+        margin: 0 0 5px 0;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    input
+    {
+        height: 35px;
+        font-size: 10px;
+        border-radius: 2px;
+        padding: 0 0 0 12px;
+    }
+    #button_login
+    {
+        padding: 9px 32.8px;
+        font-size: 12px;
+    }
+    #forget_pass
+    {
+        font-weight: 800;
+        font-size: 12px;
+    }
+    #link_register
+    {
+        font-weight: 800;
+        font-size: 12px;
+        text-decoration: none;
+    }
 }
