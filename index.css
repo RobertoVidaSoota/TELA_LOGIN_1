@@ -17,6 +17,10 @@
     --cinza5: #3D3C3A;
     --cinza6: #1D1D1D;
 }
+
+
+
+/*  -------- TELAS EXTRA LARGAS --------  */
 main
 {
     background-color: var(--cinza6);
@@ -118,11 +122,11 @@ input
 }
 #button_login
 {
-    padding: 10px 38.8px;
+    padding: 10px 26.8px;
     background-color: var(--amarelo2);
     color: var(--cinza5);
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 13px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -139,16 +143,16 @@ input
     text-align: center;
     color: var(--cinza1);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     display: block;
-    width: 70%;
+    width: 67%;
     margin: 0 auto;
 }
 #register_box
 {
     width: 85%;
-    margin: 50px auto 0 auto;
+    margin: 44px auto 0 auto;
 }
 #register_to
 {
@@ -156,7 +160,7 @@ input
     font-weight: 500;
     font-size: 14px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
 }
 #link_register
 {
