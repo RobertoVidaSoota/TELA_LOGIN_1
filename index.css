@@ -193,6 +193,7 @@ input
     #login_box
     {
         margin: 50px auto 0 auto;
+        border: 0;
     }
     .input_box
     {
