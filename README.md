@@ -1,6 +1,6 @@
 # TELA DE LOGIN MODERNA 1
 
-![tela inicial](https://i.postimg.cc/RZDFkznq/login-1.png)
+<!-- ![tela inicial](https://i.postimg.cc/RZDFkznq/login-1.png) -->
 
 Uma tela de login moderna simples. Ela está numerada para indicar que é meu primeiro projeto
 tela de login público.
