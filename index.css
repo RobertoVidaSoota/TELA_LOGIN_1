@@ -231,6 +231,10 @@ input
 
 
 }
+@media only screen and (max-width: 576px) and (orientation: landscape)
+{
+
+}
 
 
 
@@ -241,7 +245,7 @@ input
 {
     .row
     {
-        width: auto;
+        /* width: auto; */
     }
     .col
     {
@@ -292,19 +296,25 @@ input
         text-decoration: none;
     }
 }
-
+@media only screen and (max-width: 768px) and (min-width: 577px) 
+and (orientation: landscape)
+{
+    .row
+    {
+        height: 140vh;
+    }
+}
 
 
 
 /*  -------- TELAS LARGAS --------  */
 
-@media only screen and (max-width: 992px) and (min-width: 769px)
+@media only screen and (max-width: 992px) and (min-width: 769px) 
+and (orientation: landscape)
 {
     .row
     {
         width: auto;
-        /* display: block;
-        height: auto; */
     }
     .col
     {
@@ -375,5 +385,24 @@ input
         font-weight: 800;
         font-size: 12px;
         text-decoration: none;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 769px) 
+and (orientation: portrait)
+{
+    .col_left
+    {
+        display: none;
+    }
+    .col
+    {
+        width: 100%;
+    }
+    #login_box
+    {
+        margin: 20vh auto 0 auto;
+        width: 70%;
+        height: 50vh;
+        border: none;
     }
 }
